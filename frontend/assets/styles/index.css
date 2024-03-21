@@ -6,11 +6,13 @@
 
 html,
 body {
+    margin: 0;
     position: relative;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #333;
     background-color: #f4f4f4;
+    
 }
 
 header {
@@ -142,6 +144,7 @@ button[type=submit]:hover {
 
 footer {
     margin: 100px;
+ 
 }
 
 .team-members {
@@ -242,7 +245,8 @@ footer {
     background-color: #f4edf1;
     text-align: center;
 }
-.tutorial-section{
+
+.tutorial-section {
     display: inline-block;
     margin: 30px;
     padding: 20px;
@@ -252,7 +256,8 @@ footer {
     text-align: center;
     width: 30%;
 }
-.team{
+
+.team {
     display: inline-block;
     margin-left: 500px;
     padding: 20px;
@@ -260,4 +265,46 @@ footer {
     border-radius: 10px;
     background-color: #f4edf1;
     text-align: center;
+}
+
+.support-us {
+    display: inline-block;
+    margin-left: 500px;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    background-color: #f4edf1;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .team-members {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .member-card {
+        width: 100%;
+    }
+
+    .name-picture-role {
+        width: 100%;
+    }
+
+    .about-section {
+        width: 100%;
+    }
+
+    .tutorial-section {
+        width: 100%;
+    }
+
+    .team {
+        width: 100%;
+    }
+
+    .support-us {
+        width: 100%;
+    }
+
 }
