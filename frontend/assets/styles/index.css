@@ -6,7 +6,7 @@
 
 html,
 body {
-
+    position: relative;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #333;
@@ -17,6 +17,7 @@ header {
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;
+    padding: 20px;
 }
 
 nav ul {
@@ -39,19 +40,111 @@ nav ul li a:hover {
     border-bottom: 2px solid #333;
     border-radius: 5px;
     color: #0f3941;
+
 }
 
+
 #template-generator {
-    align-items: center;
-    margin-top: 20px;
+    border: 1px solid #333;
+    border-radius: 24px;
+    margin: 24px auto 0;
+    max-width: 756px;
+    min-height: calc(30lvh - 24px);
+    text-align: center;
+
+
+}
+
+#template-generator:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+
+label {
+    display: block;
+}
+
+.support {
+    border: 1px solid #333;
+    border-radius: 10px;
+    font-size: large;
+    padding: 10px;
+}
+
+.support:hover {
+    background-color: #ead8d8;
+    transition: background-color 0.5s;
+    cursor: pointer;
+}
+
+.mode i {
+    font-size: x-large;
+}
+
+.mode {
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+}
+
+.mode:hover {
+    background-color: #ead8d8;
+    transition: background-color 0.5s;
+    border-radius: 10px;
+    cursor: pointer
+}
+
+.mode i:hover {
+    color: #ce6060;
+    cursor: pointer;
+
+}
+
+.title {
+    margin: 20px;
+    text-align: center;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+    font-size: large;
+
+
+}
+
+.gene-title {
+    object-fit: cover;
+    border-radius: 24px;
+    background-color: #f4edf1;
+}
+
+button[type=submit] {
+    background-color: #189452;
+    color: #f4f4f4;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    font-size: medium;
+    font-size: 100%;
+
+}
+
+button[type=submit]:hover {
+    background-color: #0f3941;
+    transition: background-color 0.5s;
 }
 
 footer {
-    margin-top: 20px;
+    margin: 100px;
 }
 
 .team-members {
-
     display: flex;
     gap: 20px;
     justify-content: space-between;
@@ -90,9 +183,12 @@ footer {
     text-align: center;
 
 }
-.icon:hover, .icon a:hover{
+
+.icon:hover,
+.icon a:hover {
     color: #ce6060;
 }
+
 .icon:hover {
     background-color: #ead8d8;
     border-radius: 10px;
@@ -128,6 +224,7 @@ footer {
     border: #ce6060 1px solid;
     border-radius: 5px;
 }
+
 .role:hover {
     background-color: #ead8d8;
     transition: background-color 0.5s;
@@ -135,3 +232,32 @@ footer {
 }
 
 .name-picture {}
+
+.about-section {
+    display: inline-block;
+    margin: 50px;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    background-color: #f4edf1;
+    text-align: center;
+}
+.tutorial-section{
+    display: inline-block;
+    margin: 30px;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    background-color: #f4edf1;
+    text-align: center;
+    width: 30%;
+}
+.team{
+    display: inline-block;
+    margin-left: 500px;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    background-color: #f4edf1;
+    text-align: center;
+}
