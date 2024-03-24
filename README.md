@@ -2,7 +2,7 @@
 
 # International House of issue templates✨️
 
-========
+----
 
  <!-- [![slickr licence](https://img.shields.io/github/license/saviomartin/slickr?style=flat-square)](https://github.com/saviomartin/slickr/blob/master/LICENSE)[![slickr forks](https://img.shields.io/github/forks/saviomartin/slickr?style=flat-square) ](https://github.com/saviomartin/slickr/fork)[![slickr stars](https://img.shields.io/github/stars/saviomartin/slickr?style=flat-square) ](https://github.com/saviomartin/slickr/stargazers)[![slickr issues](https://img.shields.io/github/issues/saviomartin/slickr?style=flat-square) ](https://github.com/saviomartin/slickr/issues)[![slickr pull-requests](https://img.shields.io/github/issues-pr/saviomartin/slickr?style=flat-square) ](https://github.com/saviomartin/slickr/pulls)[![](https://img.shields.io/twitter/url?label=Share%20on%20Twitter&style=social&url=https%3A%2F%2Fgithub.com%2Fsaviomartin%2Fslickr)](https://twitter.com/intent/tweet?text=Checkout%20slickr.vercel.app%20by%20@saviomartin7.%20The%20most%20powerful%20way%20to%20create%20awesome%20cover%20images%20for%20your%20@hashnode%20blog%20🔥) -->
 
