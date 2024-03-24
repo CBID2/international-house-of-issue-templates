@@ -13,17 +13,17 @@
 <body>
     <header>
         <div>
-            <a href="#">Logo</a>
+            <a href="../index.html">Logo</a>
         </div>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="../index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
             </ul>
 
         </nav>
         <div class="mode-support">
-            <button class="mode"><i class='bi bi-moon'></i></button>
+            <button class="mode" id="mode-button"></button>
             <a href="#" class="support"><i class="bi bi-heart"></i> support</a>
         </div>
     </header>
@@ -31,11 +31,18 @@
     <div class="support-us">
         <h1>Support Us</h1>
         <p> Like our project? Here are some ways to support us</p>
-        <ul>
-            <li> <a href="https://github.com/CBID2/InternationalHouseOfIssueTemplates">Star our repo <i class='bi bi-star'></i></a> </li>
+        <ul class="support-list">
+            <li> <a href="https://github.com/CBID2/InternationalHouseOfIssueTemplates">Star our repo <i
+                        class='bi bi-star'></i></a> </li>
             <li> <a href="https://github.com/CBID2/InternationalHouseOfIssueTemplates/issues">Report an issue</a> </li>
         </ul>
     </div>
+    <footer>
+        <p id="copy"></p>
+    </footer>
+</body>
 <script src="../assets/js/index.js"></script>
 <script src="../assets/js/submit.js"></script>
+<script src="../assets/js/toggle-mode.js"></script>
+
 </html>
