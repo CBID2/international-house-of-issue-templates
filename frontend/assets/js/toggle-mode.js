@@ -13,12 +13,12 @@ function changeColor(elements, color) {
 		item.style.color = color;
 	})
 }
-function changeBorderColor(items, color){
+function changeBorderColor(items, color) {
 	items.forEach(item => {
 		item.style.borderColor = color
 	});
 }
-function changeBackgroundColor(items, color){
+function changeBackgroundColor(items, color) {
 	items.forEach(item => {
 		item.style.background = color
 		item.style.borderRadius = "10px"
@@ -33,7 +33,7 @@ function modeToggle() {
 		changeColor(header, "white");
 		changeColor(aboutus, "black")
 		changeColor(socialMedia, "black")
-		changeBorderColor(membercard,"white")
+		changeBorderColor(membercard, "white")
 		changeBackgroundColor(icon, "white")
 
 	} else {
