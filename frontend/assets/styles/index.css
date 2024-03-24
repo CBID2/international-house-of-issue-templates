@@ -309,15 +309,11 @@ footer {
 
 }
 
-/* Styles for light mode */
-    margin-top: 20px;
-}
-
 footer {
     margin-top: 20px;
 }
 
-/* Default styles for light mode */
+/* Styles for light mode */
 body {
     background-color: #fff;
     color: #000;
@@ -344,4 +340,11 @@ h2.dark-mode {
     background-color: 000;
     color: #fff;
     font-weight: bolder;
+}
+
+/* Styles for list items in dark mode */
+li.dark-mode {
+    color: #fff;
+    font-weight: bolder;
+    /* Text color for list items in dark mode */
 }
