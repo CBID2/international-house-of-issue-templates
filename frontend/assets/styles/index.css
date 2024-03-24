@@ -309,9 +309,14 @@ footer {
 
 }
 
-/* Default styles for light mode */
+/* Styles for light mode */
 body {
     background-color: #fff;
+    color: #000;
+}
+
+.title gene-title {
+    background-color: palevioletred;
     color: #000;
 }
 
@@ -319,4 +324,10 @@ body {
 body.dark-mode {
     background-color: #000;
     color: #fff;
+}
+
+.title gene-title {
+    background-color: 000;
+    color: #fff;
+    font-weight: bolder;
 }
