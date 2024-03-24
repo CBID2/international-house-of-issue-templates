@@ -10,11 +10,11 @@
 
 <!-- [View Demo](https://slickr.vercel.app/) · [Report Bug](https://github.com/saviomartin/slickr/issues/new/choose) · [Request Feature](https://github.com/saviomartin/slickr/issues/new/choose) -->
 
-## Introducing Slickr
+<!-- ## Introducing Slickr -->
 
-Slick is the most powerful and the easiest app to create beautiful cover images for your hashnode blog. Slickr lets you be flexible by handling backgrounds, gradients, patterns, images, icons, bookmarks, uploads and a lot more. You can drag, resize and position your components and give a new feel to your blog. When you're done export it as PNG, JPG, or SVG.
+<!-- Slick is the most powerful and the easiest app to create beautiful cover images for your hashnode blog. Slickr lets you be flexible by handling backgrounds, gradients, patterns, images, icons, bookmarks, uploads and a lot more. You can drag, resize and position your components and give a new feel to your blog. When you're done export it as PNG, JPG, or SVG. -->
 
-Read [Christine's blog post] (<https://savio.xyz/introducing-slickr-the-most-powerful-cover-image-generator-for-your-hashnode-blog>) to learn more.
+<!-- Read [Christine's blog post] (<https://savio.xyz/introducing-slickr-the-most-powerful-cover-image-generator-for-your-hashnode-blog>) to learn more. -->
 
 ### 🚀 Demo
 
