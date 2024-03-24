@@ -15,30 +15,16 @@ function getTemplate(file) {
         })
         .then(data => {
             console.log(data);
-            template.value = data;
+            //template.value = data;
         })
         .catch(error => {
             console.error('error :', error);
         });
 }
 
-function checkLangAnFile() {
-    if (lang.value === "ar" && type.value === "yaml") {
-        return "../frontend/assets/src/templates/yaml/template-ar.yaml";
-    } else if (lang.value === "ar" && type.value === "md") {
-        return "../frontend/assets/src/templates/markdown/template-ar.md";
-    } else if (lang.value === "en" && type.value === "yaml") {
-        return "../frontend/assets/src/templates/yaml/template-eng.yaml";
-    } else if (lang.value === "en" && type.value === "md") {
-        return "../frontend/assets/src/templates/markdown/template-eng.md";
-    } else if (lang.value === "fr" && type.value === "yaml") {
-        return "../frontend/assets/src/templates/yaml/template-fr.yaml";
-    } else if (lang.value === "fr" && type.value === "md") {
-        return "../frontend/assets/src/templates/markdown/template-fr.md";
-    } else if (lang.value === "es" && type.value === "yaml") {
-        return "../frontend/assets/src/templates/yaml/template-es.yaml";
-    } else if (lang.value === "es" && type.value === "md") {
-        return "../frontend/assets/src/templates/markdown/template-es.md";
+function checkLangAndFile() {
+    if (lang.value && type.value) {
+        return `../frontend/assets/src/templates/${type.value}/template-${lang.value}.${type.value}`;
     } else {
         return null
     }
@@ -47,7 +33,7 @@ function checkLangAnFile() {
 generator.addEventListener("click", function (e) {
     e.preventDefault()
 
-    const file = checkLangAnFile();
+    const file = checkLangAndFile();
     if (file !== null) {
 
         getTemplate(file);
