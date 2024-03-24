@@ -35,3 +35,5 @@ function modeToggle() {
 
 }
 mode_button.addEventListener('click', modeToggle);
+copy.innerHTML = `&copy; ${current_year} International House of Issue Templates`
+

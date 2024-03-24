@@ -310,6 +310,14 @@ footer {
 }
 
 /* Styles for light mode */
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+/* Default styles for light mode */
 body {
     background-color: #fff;
     color: #000;
