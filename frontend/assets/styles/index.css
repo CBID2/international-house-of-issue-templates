@@ -315,7 +315,13 @@ body {
     color: #000;
 }
 
-.title gene-title {
+h1.light-mode {
+    background-color: #fff;
+    color: #000;
+    font-weight: bolder;
+}
+
+h2 {
     background-color: palevioletred;
     color: #000;
 }
@@ -326,7 +332,7 @@ body.dark-mode {
     color: #fff;
 }
 
-.title gene-title {
+h2.dark-mode {
     background-color: 000;
     color: #fff;
     font-weight: bolder;
