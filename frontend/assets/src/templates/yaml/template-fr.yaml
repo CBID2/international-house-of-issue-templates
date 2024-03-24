@@ -1,0 +1,32 @@
+name: Nouveau problème
+description: Signaler un problème
+title: "[Nom du module]: "
+labels: ["bug"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: "## Description du problème"
+  - type: textarea
+    attributes:
+      label: "Qu'est-ce qui ne fonctionne pas correctement?"
+      description: "Veuillez fournir une description détaillée du problème."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Quelles sont les étapes pour reproduire le problème?"
+      description: "Veuillez fournir une liste détaillée des étapes pour reproduire le problème que vous rencontrez."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Quel est le comportement attendu?"
+      description: "Veuillez décrire ce que vous attendez que le système fasse."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Informations supplémentaires"
+      description: "Veuillez fournir toute information supplémentaire que vous pensez utile."

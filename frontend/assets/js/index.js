@@ -3,6 +3,7 @@ const current_year = current_date.getFullYear();
 const copy = document.getElementById('copy');
 copy.innerHTML = `&copy; ${current_year} International House of Issue Templates`
 
+<<<<<<< HEAD
 const mode_button = document.getElementById('mode-button');
 const logo = document.getElementById('logo')
 const body = document.body;
@@ -35,5 +36,7 @@ function modeToggle() {
 
 }
 mode_button.addEventListener('click', modeToggle);
+=======
+>>>>>>> frontend
 copy.innerHTML = `&copy; ${current_year} International House of Issue Templates`
 
