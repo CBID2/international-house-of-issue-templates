@@ -1,42 +1,170 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-html, body{
- 
+
+html,
+body {
+
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #333;
     background-color: #f4f4f4;
+
 }
-header{
+
+header {
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;
 }
-nav ul{
+
+nav ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
     color: #333;
 }
-nav ul li{
+
+nav ul li {
     font-weight: 700;
     margin: 0 10px;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     border-bottom: 2px solid #333;
     border-radius: 5px;
     color: #0f3941;
+
 }
-#template-generator{
+
+
+#template-generator {
+    border: 1px solid #333;
+    border-radius: 24px;
+    margin: 24px auto 0;
+    max-width: 756px;
+    min-height: calc(30lvh - 24px);
+    text-align: center;
+
+
+}
+
+#template-generator:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+
+label {
+    display: block;
+}
+
+.support {
+    border: 1px solid #333;
+    border-radius: 10px;
+    font-size: large;
+    padding: 10px;
+}
+
+.support:hover {
+    background-color: #ead8d8;
+    transition: background-color 0.5s;
+    cursor: pointer;
+}
+
+.mode i {
+    font-size: x-large;
+}
+
+.mode {
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+}
+
+.mode:hover {
+    background-color: #ead8d8;
+    transition: background-color 0.5s;
+    border-radius: 10px;
+    cursor: pointer
+}
+
+.mode i:hover {
+    color: #ce6060;
+    cursor: pointer;
+
+}
+
+.title {
+    margin: 20px;
+    text-align: center;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+    font-size: large;
+
+
+}
+
+.gene-title {
+    object-fit: cover;
+    border-radius: 24px;
+    background-color: #f4edf1;
+}
+
+button[type=submit] {
+    background-color: #189452;
+    color: #f4f4f4;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    font-size: medium;
+    font-size: 100%;
+
+}
+
+button[type=submit]:hover {
+    background-color: #0f3941;
+    transition: background-color 0.5s;
+}
+
+footer {
+    margin: 100px;
+
+}
+
+.team-members {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
     align-items: center;
     margin-top: 20px;
 }
-footer{
+
+footer {
     margin-top: 20px;
+}
+
+/* Default styles for light mode */
+body {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Styles for dark mode */
+body.dark-mode {
+    background-color: #000;
+    color: #fff;
 }
