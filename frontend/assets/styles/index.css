@@ -7,20 +7,14 @@
 html,
 body {
     margin: 0;
-<<<<<<< HEAD
-=======
     padding: 0;
     height: 100%;
->>>>>>> frontend
     position: relative;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #333;
     background-color: #f4f4f4;
-<<<<<<< HEAD
-=======
     overflow-x: hidden;
->>>>>>> frontend
 
 }
 
@@ -153,12 +147,9 @@ button[type=submit]:hover {
 
 footer {
     margin: 100px;
-<<<<<<< HEAD
-=======
     position: absolute;
     bottom: 0;
 
->>>>>>> frontend
 
 }
 
@@ -269,11 +260,7 @@ footer {
     border-radius: 10px;
     background-color: #f4edf1;
     text-align: center;
-<<<<<<< HEAD
-    width: 30%;
-=======
     width: 50%;
->>>>>>> frontend
 }
 
 .team {
@@ -288,53 +275,12 @@ footer {
 
 .support-us {
     display: inline-block;
-<<<<<<< HEAD
-    margin-left: 500px;
-    padding: 20px;
-=======
     margin-left: 35%;
     padding: 60px;
->>>>>>> frontend
     border: 1px solid #333;
     border-radius: 10px;
     background-color: #f4edf1;
     text-align: center;
-<<<<<<< HEAD
-}
-
-@media screen and (max-width: 768px) {
-    .team-members {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .member-card {
-        width: 100%;
-    }
-
-    .name-picture-role {
-        width: 100%;
-    }
-
-    .about-section {
-        width: 100%;
-    }
-
-    .tutorial-section {
-        width: 100%;
-    }
-
-    .team {
-        width: 100%;
-    }
-
-    .support-us {
-        width: 100%;
-    }
-
-}
-
-=======
     max-width: 500px;
 
 }
@@ -350,16 +296,11 @@ footer {
 .support-list li a:hover{
     color: #189452;
 } 
->>>>>>> frontend
 footer {
     margin-top: 20px;
 }
 
-<<<<<<< HEAD
-/* Styles for light mode */
-=======
 /* Default styles for light mode */
->>>>>>> frontend
 body {
     background-color: #fff;
     color: #000;
@@ -371,11 +312,7 @@ h1.light-mode {
     font-weight: bolder;
 }
 
-<<<<<<< HEAD
-h2.light-mode {
-=======
 h2 {
->>>>>>> frontend
     background-color: palevioletred;
     color: #000;
 }
@@ -392,13 +329,6 @@ h2.dark-mode {
     font-weight: bolder;
 }
 
-<<<<<<< HEAD
-/* Styles for list items in dark mode */
-li.dark-mode {
-    color: #fff;
-    font-weight: bolder;
-    /* Text color for list items in dark mode */
-=======
 @media screen and (max-width: 768px) {
     .team-members {
         flex-direction: column;
@@ -486,5 +416,4 @@ li.dark-mode {
         background-color: #ead8d8;
     }
 
->>>>>>> frontend
 }
