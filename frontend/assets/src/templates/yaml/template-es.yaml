@@ -1,0 +1,24 @@
+name: Informe de problema
+about: Crea un informe para ayudarnos a mejorar
+title: ''
+labels: ''
+assignees: ''
+
+body:
+  - type: markdown
+    attributes:
+      value: '## Pasos para reproducir'
+  - type: textarea
+    attributes:
+      label: 'Descripción detallada'
+      description: 'Explica el problema en detalle'
+  - type: input
+    attributes:
+      label: 'Versión del software'
+      description: '¿Qué versión del software estás utilizando?'
+  - type: checkboxes
+    attributes:
+      label: 'Comprobaciones'
+      options:
+        - label: 'He buscado en los problemas existentes para asegurarme de que este no es un duplicado'
+        - label: 'He probado con la última versión del software'
