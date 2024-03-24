@@ -1,1 +1,0 @@
-# international-house-of-issue-templates
