@@ -1,10 +1,15 @@
 const generator = document.getElementById("generate");
 const lang = document.getElementById("language-select");
 const type = document.getElementById("file-type-select");
-
+const template = document.getElementById("issueDescription");
+const copyBtn = document.getElementById("copy-btn")
+template.value = ""
+const issueTemplate = document.querySelector(".issue-template")
+const download = document.getElementById("download")
+const downloadBtn = document.getElementById("download-btn")
 
 function getTemplate(file) {
-    const template = document.getElementById("issueDescription");
+    
     fetch(file)
         .then(response => {
 
@@ -15,7 +20,7 @@ function getTemplate(file) {
         })
         .then(data => {
             console.log(data);
-            //template.value = data;
+            template.value = data;
         })
         .catch(error => {
             console.error('error :', error);
@@ -29,8 +34,17 @@ function checkLangAndFile() {
         return null
     }
 }
+function copyTemplate(){
+    if (template.value) {
+        template.select()
+        template.setSelectionRange(0, 99999)
 
-generator.addEventListener("click", function (e) {
+        navigator.clipboard.writeText(template.value)
+        alert("Copied")
+    }
+}
+
+generator.addEventListener("click",  (e) => {
     e.preventDefault()
 
     const file = checkLangAndFile();
@@ -39,6 +53,8 @@ generator.addEventListener("click", function (e) {
         getTemplate(file);
         lang.value = ""
         type.value = ""
+        download.href = file
+        issueTemplate.style.display = "block"
         //window.location.href = "/frontend/pages/template.html";
     } else {
         alert("Please select a language and a file type")
@@ -47,4 +63,9 @@ generator.addEventListener("click", function (e) {
 
 });
 
+copyBtn.addEventListener("click", copyTemplate)
+
+downloadBtn.addEventListener("click", () => {
+    alert("Click \"Ok\" to download")
+})
 

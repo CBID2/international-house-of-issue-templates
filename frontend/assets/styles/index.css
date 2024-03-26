@@ -148,7 +148,7 @@ button[type=submit]:hover {
 footer {
     margin: 100px;
     position: absolute;
-    bottom: 0;
+    bottom: 0%;
 
 
 }
@@ -293,9 +293,10 @@ footer {
     font-size: 20px;
 }
 
-.support-list li a:hover{
+.support-list li a:hover {
     color: #189452;
-} 
+}
+
 footer {
     margin-top: 20px;
 }
@@ -327,6 +328,19 @@ h2.dark-mode {
     background-color: 000;
     color: #fff;
     font-weight: bolder;
+}
+
+.issue-template {
+    display: none;
+}
+
+#issueDescription {
+    max-width: 100%;
+   
+    border-radius: 5px;
+    transition: background-color 0.5s;
+    font-size: medium;
+    font-size: 100%;
 }
 
 @media screen and (max-width: 768px) {
